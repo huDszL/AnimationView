@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityCompat.requestPermissions
+import com.hujun.animationdemo.attribute.AttributeActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -40,6 +41,15 @@ class MainActivity : AppCompatActivity() {
 //        anim_tv.startAnimation(anim)
 //        requ
 
+        to_viewChild_bt.setOnClickListener {
+            val intent = Intent(this, ViewChildActivity::class.java)
+            startActivity(intent)
+        }
+
+        to_attribute_bt.setOnClickListener {
+            val intent = Intent(this, AttributeActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 //    override fun onRequestPermissionsResult(
@@ -62,9 +72,9 @@ class MainActivity : AppCompatActivity() {
     fun animationView(v: View){
         val animation = AnimationSet(false).apply {
             duration = 3000
+            fillAfter = true
             addAnimation(TranslateAnimation(0F, 100F, 0F, 0F))
             addAnimation(ScaleAnimation(0.1f,1f,0.1f,1f))
-            fillAfter = true
             setAnimationListener(object : Animation.AnimationListener{
                 override fun onAnimationStart(animation: Animation?) {
                 }

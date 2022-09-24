@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/workspace/AnimationDemo/app/src/main/res/layout/activity_attribute.xml" value="0.36614583333333334" />
         <entry key="..\:/workspace/AnimationDemo/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/workspace/AnimationDemo/app/src/main/res/layout/activity_view_child.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>

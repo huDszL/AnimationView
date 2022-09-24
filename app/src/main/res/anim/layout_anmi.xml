@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/enter_from_left_for_child_of_group"
+    android:animationOrder="normal"
+    android:delay="0.8">
+    <!-- animationOrder 出场书序， delay 动画延迟  -->
+
+</layoutAnimation>
