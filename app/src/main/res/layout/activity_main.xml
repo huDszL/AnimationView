@@ -37,8 +37,10 @@
             android:text="属性动画"
             />
         <com.hujun.animationdemo.view.MyView
+            android:id="@+id/myView"
             android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
             />
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.constraintlayout.widget.ConstraintLayout>

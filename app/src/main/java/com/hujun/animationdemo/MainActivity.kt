@@ -50,6 +50,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AttributeActivity::class.java)
             startActivity(intent)
         }
+        myView.setOnClickListener{
+            myView.start()
+        }
+//        myView.setAn
     }
 
 //    override fun onRequestPermissionsResult(
